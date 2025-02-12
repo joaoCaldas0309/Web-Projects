@@ -1,0 +1,67 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para Arial ou uma fonte sans-serif similar */
+    background-color: #f0f0f5; /* Define um fundo claro para a página */
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da tela como 100% da altura da janela de visualização */
+    margin: 0; /* Remove qualquer margem padrão */
+  }
+  
+  /* Estiliza o contêiner da caixa de login */
+  .login-container {
+    width: 300px; /* Define a largura fixa da caixa de login */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
+    background-color: #ffffff; /* Define o fundo da caixa como branco */
+    border-radius: 8px; /* Adiciona cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve para dar profundidade */
+  }
+  
+  /* Estiliza o título do formulário de login */
+  h2 {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Adiciona um espaço inferior para separação */
+    color: #333333; /* Define a cor do texto como cinza escuro */
+  }
+  
+  /* Define o layout do formulário */
+  form {
+    display: flex; /* Usa Flexbox */
+    flex-direction: column; /* Alinha os elementos em uma única coluna */
+  }
+  
+  /* Estiliza os rótulos (labels) dos campos */
+  label {
+    margin-bottom: 8px; /* Adiciona espaço entre o rótulo e o campo de entrada */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #555555; /* Define uma cor cinza médio */
+  }
+  
+  /* Estiliza os campos de entrada de texto e senha */
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px; /* Adiciona espaço interno ao campo */
+    margin-bottom: 20px; /* Adiciona espaço inferior para separação */
+    border: 1px solid #cccccc; /* Define uma borda cinza clara */
+    border-radius: 4px; /* Adiciona cantos arredondados */
+  }
+  
+  /* Estiliza o botão de login */
+  button {
+    padding: 10px; /* Adiciona espaço interno ao botão */
+    background-color: #020202; /* Define uma cor de fundo azul */
+    color: white; /* Define a cor do texto como branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Altera o cursor para o ícone de "mãozinha" ao passar sobre o botão */
+  }
+  
+  /* Estiliza o botão ao passar o mouse por cima */
+  button:hover {
+    background-color: #ffffff; /* Escurece a cor de fundo ao passar o mouse */
+    color: #020202;
+    border: 1px solid #020202;
+    transition: 0.1s;
+  }
+  
